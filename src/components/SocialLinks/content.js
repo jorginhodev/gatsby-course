@@ -15,7 +15,7 @@ const links = [
   },
   {
     label: "Instagram",
-    url: `https://github.com/${handle}`,
+    url: `https://instagram.com/${handle}`,
   },
   {
     label: "Unsplash",
