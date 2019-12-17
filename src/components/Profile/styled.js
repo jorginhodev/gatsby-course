@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const ProfileWrapper = styled.section`
   color: #8896a6;
@@ -8,7 +8,7 @@ export const ProfileWrapper = styled.section`
   flex-direction: column;
 `
 
-export const ProfileLink = styled(Link)`
+export const ProfileLink = styled(AniLink)`
   color: #8896a6;
   text-decoration: none;
   transition: color 0.5s;
